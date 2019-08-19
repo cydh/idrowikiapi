@@ -1,0 +1,20 @@
+{
+    "name": "cydh/idrowikiapi",
+    "description": "An API for DB.IDROWIKI.org project",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Cydh",
+            "email": "cydh.ramdh@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cydh\\IdrowikiAPI\\": "src/"
+        }
+    },
+    "license": "GPL-3.0-only"
+}
